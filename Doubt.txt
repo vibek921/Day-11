@@ -1,0 +1,1 @@
+I forgot/ get confusion which is local varibal and which is global variable, so I write comment on the Practice.py.
