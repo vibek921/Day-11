@@ -18,4 +18,4 @@ Abstractionmethod basically a function that create in higher class and lower cla
 
 - __str__(self): self method return string when We print the class.
 
-- __add__(self): its runs when we try to of 2 or more numbers
+- __add__(self): its runs when we try to of 2 items, (make sure 1 item is already available in the class, coz __add__ can only take 1 new argument)

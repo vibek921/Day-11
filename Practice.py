@@ -39,7 +39,9 @@ bank.mobile_app()
 
 # __len__(self)
 class Emp:
-    name = "vibek"
+    def __init__(self, name, roll):
+        self.name = name
+        self.roll = roll
     def __len__(self):
         return len(self.name)
     def info(self):
@@ -47,11 +49,13 @@ class Emp:
     def __str__(self):
         return f"hi my name is {self.name}"
 
+    def __add__(self, other2):
+        return f"sum: {self.roll + other2}"
 
-dv = Emp()
+dv = Emp("vibek", 16)
 dv.info()
 print(dv)
 print(len(dv))
+print(dv + 5)
 
-dewdwedcd
 
