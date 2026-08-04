@@ -8,7 +8,7 @@ yes, we can just created a varibale just using 2 underscore before a variable na
 
 2. Abstraction
 
-Abstractionmethod basically a function that create in higher class and lower classes must they should follow, thats how higher class can control for some reason.
+Abstraction is basically a common method created in the parent class. Every child class must implement that method in its own way.
 
 3. Magic/Dunder method
 
