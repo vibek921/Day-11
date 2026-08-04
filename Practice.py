@@ -33,3 +33,25 @@ class Mobile(Banking):
 bank = Mobile()
 bank.security()
 bank.mobile_app()
+
+
+
+
+# __len__(self)
+class Emp:
+    name = "vibek"
+    def __len__(self):
+        return len(self.name)
+    def info(self):
+        print(f"name: {self.name}")
+    def __str__(self):
+        return f"hi my name is {self.name}"
+
+
+dv = Emp()
+dv.info()
+print(dv)
+print(len(dv))
+
+
+
