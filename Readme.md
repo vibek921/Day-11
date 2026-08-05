@@ -279,4 +279,206 @@ __getattr__()
 __setattr__()
 __delattr__()
 
-I'll learn them in free time, not all together
+I'll learn them in free time, not all together.
+
+Now, I'm going to solve some other challenge questions:
+# OOP Challenge Set (Hard)
+
+## Challenge 1 - Student Ranking System
+
+Create a Student class.
+
+Store:
+- name
+- marks
+
+Requirements:
+
+- Sort students by marks.
+- Compare students using > and <.
+- Print student details using print(student).
+- Add two students to get their total marks.
+
+---
+
+## Challenge 2 - Cricket Team
+
+Create:
+
+Player (Abstract)
+
+Child classes:
+
+- Batsman
+- Bowler
+- WicketKeeper
+
+Requirements:
+
+- display_stats()
+- Compare players by total runs.
+- Print player details.
+- Store all players in one list.
+- Display using one loop.
+
+---
+
+## Challenge 3 - Shopping Cart
+
+Create:
+
+Product
+
+Store:
+
+- name
+- price
+
+Create:
+
+Cart
+
+Requirements:
+
+- Add products.
+- Remove products.
+- Calculate total bill.
+- "Laptop" in cart should return True.
+- len(cart) should return total products.
+
+---
+
+## Challenge 4 - Banking System
+
+Create:
+
+Account (Abstract)
+
+Child:
+
+- Savings
+- Current
+
+Requirements:
+
+- Deposit
+- Withdraw
+- Print account details
+- Compare accounts by balance.
+- Add two accounts to get total balance.
+
+---
+
+## Challenge 5 - University Portal
+
+Create:
+
+Person
+
+↓
+
+Teacher
+Student
+Staff
+
+Requirements:
+
+- Common details in Person.
+- Override display().
+- Store everyone in one list.
+- Print using one loop.
+
+---
+
+## Challenge 6 - Chess Pieces
+
+Create:
+
+Piece (Abstract)
+
+Children:
+
+- King
+- Queen
+- Bishop
+- Knight
+- Pawn
+
+Each class should implement:
+
+move()
+
+Different output for every piece.
+
+---
+
+## Challenge 7 - Inventory System
+
+Store products.
+
+Requirements:
+
+- Add stock
+- Sell stock
+- Prevent negative stock
+- Compare products by stock
+- Print product info.
+
+---
+
+## Challenge 8 - Movie Ticket Booking
+
+Classes:
+
+Movie
+Customer
+Booking
+
+Requirements:
+
+- Book tickets.
+- Cancel tickets.
+- Calculate total amount.
+- Prevent booking if seats are full.
+
+---
+
+## Challenge 9 - Online Food Delivery
+
+Classes:
+
+Restaurant
+Order
+Customer
+
+Requirements:
+
+- Place order
+- Cancel order
+- Calculate bill
+- Store all orders
+- Print order details.
+
+---
+
+## Challenge 10 - Mini Game
+
+Create:
+
+Character (Abstract)
+
+Children:
+
+- Warrior
+- Archer
+- Mage
+
+Requirements:
+
+- attack()
+- defend()
+- show_stats()
+
+Store all characters in one list.
+
+Battle them using polymorphism.

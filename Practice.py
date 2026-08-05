@@ -1,62 +1,62 @@
-# # dream = "benz" #global variable
-# # class Pr:
-# #     def __init__(self):
-# #         self.__brand = "toyota"
+# dream = "benz" #global variable
+# class Pr:
+#     def __init__(self):
+#         self.__brand = "toyota"
 
-# #     def car(self):
-# #         Vehicle_type = "2 wheeler" #Local Variable
-# #         print(f"brand is: {self.__brand}")
+#     def car(self):
+#         Vehicle_type = "2 wheeler" #Local Variable
+#         print(f"brand is: {self.__brand}")
 
-# # sd = Pr()
-# # sd.__brand = "bmw"
-# # sd.car()
-
-
-
-# # from abc import ABC, abstractmethod
-
-# # class Banking(ABC):
-
-# #     @abstractmethod
-# #     def security(self):
-# #         pass
-
-# #     def database(self):
-# #         print("you successfully access the database")
-
-# # class Mobile(Banking):
-# #     def security(self):
-# #         print("mobile security")
-# #     def mobile_app(self):
-# #         print("launch the app")
-
-# # bank = Mobile()
-# # bank.security()
-# # bank.mobile_app()
+# sd = Pr()
+# sd.__brand = "bmw"
+# sd.car()
 
 
 
+# from abc import ABC, abstractmethod
 
-# # # __len__(self)
-# # class Emp:
-# #     def __init__(self, name, roll):
-# #         self.name = name
-# #         self.roll = roll
-# #     def __len__(self):
-# #         return len(self.name)
-# #     def info(self):
-# #         print(f"name: {self.name}")
-# #     def __str__(self):
-# #         return f"hi my name is {self.name}"
+# class Banking(ABC):
 
-# #     def __add__(self, other2):
-# #         return f"sum: {self.roll + other2}"
+#     @abstractmethod
+#     def security(self):
+#         pass
 
-# # dv = Emp("vibek", 16)
-# # dv.info()
-# # print(dv)
-# # print(len(dv))
-# # print(dv + 5)
+#     def database(self):
+#         print("you successfully access the database")
+
+# class Mobile(Banking):
+#     def security(self):
+#         print("mobile security")
+#     def mobile_app(self):
+#         print("launch the app")
+
+# bank = Mobile()
+# bank.security()
+# bank.mobile_app()
+
+
+
+
+# # __len__(self)
+# class Emp:
+#     def __init__(self, name, roll):
+#         self.name = name
+#         self.roll = roll
+#     def __len__(self):
+#         return len(self.name)
+#     def info(self):
+#         print(f"name: {self.name}")
+#     def __str__(self):
+#         return f"hi my name is {self.name}"
+
+#     def __add__(self, other2):
+#         return f"sum: {self.roll + other2}"
+
+# dv = Emp("vibek", 16)
+# dv.info()
+# print(dv)
+# print(len(dv))
+# print(dv + 5)
 
 
 # # Challene Question
@@ -127,40 +127,76 @@
 #     print(x.display())
 #     print(len(x))
 
+# class Student:
+#     def __init__(self, name, roll, course):
+#         self.name = name
+#         self.roll = roll
+#         self.course = course
+
+#     def __str__(self):
+#         return f"name: {self.name} \nroll: {self.roll} \ncourse: {self.course}"
+
+# std = Student("Vibek", 15, "B.com")
+# print(std)
+
+# class Movie:
+#     def __init__(self, name):
+#         self.name = name
+
+#     def __len__(self):
+#         ln = len(self.name)
+#         return ln
+    
+# mv = Movie("Krish 3")
+# print(f"\nlen of the movie name: {len(mv)}")
+
+# class Employee:
+#     def __init__(self, name, salary):
+#         self.name = name 
+#         self.salary = salary
+
+#     def __add__(self, other):
+#         emp1 = self.salary
+#         emp2 = other.salary
+#         sum = emp1 + emp2
+#         return sum
+
+# em = Employee("vibek", 15000)
+# ems = Employee("Rahul", 12000)
+# print(em + ems)
+
+
+# Small Challenge
+# QUESTION 1
+
 class Student:
-    def __init__(self, name, roll, course):
+    def __init__(self, name, marks):
         self.name = name
-        self.roll = roll
-        self.course = course
+        self.marks = marks
 
     def __str__(self):
-        return f"name: {self.name} \nroll: {self.roll} \ncourse: {self.course}"
+        return f"Name: {self.name} \nMarks: {self.marks}"
 
-std = Student("Vibek", 15, "B.com")
-print(std)
-
-class Movie:
-    def __init__(self, name):
-        self.name = name
-
-    def __len__(self):
-        ln = len(self.name)
-        return ln
-    
-mv = Movie("Krish 3")
-print(f"\nlen of the movie name: {len(mv)}")
-
-class Employee:
-    def __init__(self, name, salary):
-        self.name = name 
-        self.salary = salary
+    def compare(self):
+        st1 = self.marks
+        st2 = stuu.marks
+        if st1 >= st2:
+            print("Student 1 has more marks")
+        else:
+            print("Student 2 has more marks")
 
     def __add__(self, other):
-        emp1 = self.salary
-        emp2 = other.salary
-        sum = emp1 + emp2
-        return sum
+        st1 = self.marks
+        st2 = other.marks
+        return st1 + st2
 
-em = Employee("vibek", 15000)
-ems = Employee("Rahul", 12000)
-print(em + ems)
+stu = Student("Vibek", 45)
+stuu = Student("Rahul", 38)
+stu.compare()
+print(stu + stuu)
+ss = [stu, stuu]
+for x in ss:
+    print(x)
+# stdd = [Student("Vibek", 45), Student("bikash", 35), Student("rahul", 59)]
+# stdd.sort()
+# print(stdd)
