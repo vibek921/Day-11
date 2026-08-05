@@ -10,3 +10,11 @@ def __add__(self, other2):
 2. 
 def __add__(self, other2):
         return f"sum: {self.roll + other2}
+
+{self.__class__.__name__} with the help of this we can directly print the class name.
+class Book:
+    pass
+
+bk = Book()
+
+print(bk.__class__.__name__)

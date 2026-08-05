@@ -155,3 +155,82 @@ add two books using `+`.
 ✅ Use `__add__()`
 
 ❌ No `if`, `elif`, `match-case`
+
+# During solve this question I realize that I dont know much about magic methods, so I'am going to learn them. and make sure during solve this questoins I dont use chatbots.
+
+
+# Magic Method Challenge Set
+
+## Challenge 1 - __init__()
+
+Create a `Student` class.
+
+- Store:
+  - name
+  - roll
+  - course
+
+Create 3 student objects and print their details.
+
+---
+
+## Challenge 2 - __str__()
+
+Create a `Laptop` class.
+
+When you write:
+
+```python
+print(laptop)
+```
+
+Output:
+
+```
+Laptop: Dell Inspiron
+Price: ₹55000
+```
+
+---
+
+## Challenge 3 - __len__()
+
+Create a `Movie` class.
+
+`len(movie)` should return the number of characters in the movie name.
+
+Example:
+
+```
+Movie = "Interstellar"
+
+len(movie)
+
+Output:
+12
+```
+
+---
+
+## Challenge 4 - __add__()
+
+Create an `Employee` class.
+
+Store:
+
+- name
+- salary
+
+If two employees are added:
+
+```python
+emp1 + emp2
+```
+
+Return:
+
+```
+Total Salary: 85000
+```
+
+---
