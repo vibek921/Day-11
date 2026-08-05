@@ -19,3 +19,139 @@ Abstraction is basically a common method created in the parent class. Every chil
 - __str__(self): self method return string when We print the class.
 
 - __add__(self): its runs when we try to of 2 items, (make sure 1 item is already available in the class, coz __add__ can only take 1 new argument)
+
+
+
+<!-- Challene Question -->
+# Week 3 Final Challenge
+
+## Library Management System
+
+Create an abstract class:
+
+- LibraryItem
+
+### Private Variables
+
+- __title
+- __author
+
+### Abstract Method
+
+```python
+display()
+```
+
+Every child class must implement it.
+
+---
+
+## Create three child classes
+
+- Book
+- Magazine
+- Newspaper
+
+Each class should implement `display()` differently.
+
+Example:
+
+Book:
+```
+Book: Python Crash Course
+Author: Eric Matthes
+```
+
+Magazine:
+```
+Magazine: National Geographic
+Author: National Geographic Team
+```
+
+Newspaper:
+```
+Newspaper: The Hindu
+Author: Editorial Team
+```
+
+---
+
+## Magic Methods
+
+Implement:
+
+### `__str__()`
+
+Printing an object should show:
+
+```
+Book(Python Crash Course)
+```
+
+### `__len__()`
+
+Return the length of the title.
+
+Example:
+
+```
+len(book)
+```
+
+returns
+
+```
+20
+```
+
+### `__add__()`
+
+If two books are added,
+
+```python
+book1 + book2
+```
+
+return
+
+```
+Total title length: 35
+```
+
+---
+
+## Main Program
+
+Create one object of each class.
+
+Store them in a list.
+
+Use one loop to:
+
+- call `display()`
+- print the object
+- print its length
+
+Finally,
+
+add two books using `+`.
+
+---
+
+## Rules
+
+✅ Use Abstraction
+
+✅ Use Encapsulation
+
+✅ Use Inheritance
+
+✅ Use Polymorphism
+
+✅ Use `__str__()`
+
+✅ Use `__len__()`
+
+✅ Use `__add__()`
+
+❌ No `if`, `elif`, `match-case`
