@@ -234,3 +234,49 @@ Total Salary: 85000
 ```
 
 ---
+
+I only know __init__, __add__, __len__, __str__. but there is lots more magic method so no i gonna learn them.
+
+Comparison Methods
+__eq__()        ==
+__ne__()        !=
+__lt__()        <
+__le__()        <=
+__gt__()        >
+__ge__()        >=
+
+Arithmetic Methods
+__sub__()       -
+__mul__()       *
+__truediv__()   /
+__floordiv__()  //
+__mod__()       %
+__pow__()       **
+
+Membership
+__contains__()   in
+
+Indexing
+__getitem__()    obj[index]
+__setitem__()    obj[index] = value
+__delitem__()    del obj[index]
+
+Callable Object
+__call__()
+
+Iteration
+__iter__()
+__next__()
+
+Boolean
+__bool__()
+
+Representation
+__repr__()
+
+Attribute Access
+__getattr__()
+__setattr__()
+__delattr__()
+
+I'll learn them in free time, not all together
