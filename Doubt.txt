@@ -2,6 +2,10 @@ I forgot/ get confusion which is local varibal and which is global variable, so 
 when I learning __add__ i dont understand how its add numbers coz my init has no numbers.
 i use this return f"sum: {self.roll} + {other2}", expecting (16 + 5 = 21), 21 as answer but i forgot that i use the + operation as string not a mathemetical operator so i get sum: 16 + 5, in terminal. then I create 2 solutions:
 
+1.
+def __add__(self, other2):
+    sum = self.roll + other2
+    return f"sum: {sum}
 
 2. 
 def __add__(self, other2):
